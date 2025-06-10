@@ -1,0 +1,22 @@
+# Ignore Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+
+# Ignore Django migrations
+*/migrations/
+
+# Node
+node_modules/
+dist/
+
+# Vite build
+.vite/
+
+# OS junk
+.DS_Store
+Thumbs.db
